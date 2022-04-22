@@ -1,3 +1,13 @@
+.hero{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+.hero-info{
+    align-items: flex-start;
+  }
+.hero-info p{
+    text-align: start;
+}
 .dishes{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;

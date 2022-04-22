@@ -9,15 +9,16 @@ html{
 main{
   padding: 8px 8px;
 }
+
 .hero{
-  display: grid;
-  grid-template-columns: 2fr 3fr;
+  min-width: 320px;
 }
 .hero-info{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  margin-bottom: 12px;
 }
 .hero-info h1{
   padding-top: 53.120px;
@@ -27,6 +28,7 @@ main{
 }
 .hero-info p{
   margin-bottom: 24px;
+  text-align: center;
   font-size: 1.5rem;
   color: #333;
 }
@@ -48,6 +50,7 @@ main{
 
 .services{
   margin-top: 12px;
+  min-width: 320px;
   border-top: 1px solid rgb(199, 199, 199);
 }
 .section-tittle{
@@ -78,6 +81,7 @@ main{
 
 .home-menu{
   margin-bottom: 20px;
+  min-width: 320px;
 }
 
 .menu{
