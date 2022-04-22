@@ -43,3 +43,33 @@ main{
 .hero figure img{
   width: 100%;
 }
+
+/*OUR SERVICES SECTION*/
+
+.services{
+  margin-top: 8px;
+  border-top: 1px solid rgb(199, 199, 199);
+}
+.section-tittle{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 3rem;
+  color: #333;
+  font-weight: 400;
+}
+.dishes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 48px;
+}
+.dishes img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.video-min-container{
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
